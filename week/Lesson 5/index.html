@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        border: 2 solid black;
+        text-align: left;
+
+    }
+
+    th,
+    td {
+        border: 1px solid forestgreen;
+
+    }
+</style>
+
+<body>
+    <!--  Блок -->
+    <!--  Должен отвечать на вопрос: Что это? -->
+    <!-- Это не состояние.  Какой?  Как выглядит ? -->
+
+    <!-- Верно -->
+    <div class="warning warning_color_yellow"></div>
+
+    <!--  Неверно -->
+    <div class="yellow-warning"></div>
+
+    <div class="nav-left">
+        <div class="logo"></div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+
+    <form action="search-form">
+        <input class="search-form__input" type="text">
+        <button class="search-form__button">btn</button>
+    </form>
+    <!--  Элемент всегда часть блока, а не другого элемента -->
+    <form class="search-form">
+        <div class="search-form__content">
+            <!--  -->
+            <input class="search-form__input" type="text">
+            <button class="search-form__btn">
+                <!--  -->
+                <input class="search-form_content-input" type="text">
+                <button class="search-form__content-btn">btn</button>
+            </button>
+
+        </div>
+    </form>
+    <!-- Элемент не обязательный компонент блока. Не
+    у всех блоков должен быть элемент -->
+    <!-- неверно -->
+    <form class="search-form">
+        <input class="search-form__input" type="text">
+
+        <!--  -->
+        <form class="search-form"></form>
+        <!--  -->
+        <input class="input" type="text">
+        <!--  -->
+        <button class="button">Search</button>
+    </form>
+    <button class="buttom">Call Me</button>
+
+    <!-- модификатор -->
+    <!--  -->
+    <!-- Типы модификаторов булевы и ключ-значения -->
+    <!-- Булевый -->
+    <div class="make-order">
+        <button class="make-order__button make-order__button_disabled">Сделать заказ</button>
+    </div>
+    <!--  Ключ-значение -->
+    <div class="make-oder">
+        <button class="make-order__button
+    make-order__button_color_red">Сделать заказ</button>
+    </div>
+
+
+
+    <div class="description">
+        <p class="description__paragraph
+    description__paragraph_color_green
+    description__paragraph_fsz_24"></p>
+    </div>
+    <!-- Невоззможно одновременно исполбзовать два одинаковых мадификатора с разными значениями -->
+
+    <div class="description">
+        <!-- Неверно -->
+        <p class="description__paragraph
+description__paragraph_fw_700
+description__paragraph_fw_400"></p>
+    </div>
+
+    <!-- input -->
+
+    <input type="text" placehoider="Enter name">
+    <input type="password">
+    <input type="tel" placehoider="enter phone number">
+    <input type="email">
+    <input type="number">
+    <input type="checkbox">
+    <input type="date">
+
+    <!-- table -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>name</th>
+                <th>price</th>
+                <th>count</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th>#</th>
+                <th>Total</th>
+                <td>3000</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>

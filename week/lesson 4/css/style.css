@@ -1,0 +1,156 @@
+/* <!-- display: block, inline, inline-block -->
+p {
+    background-color: red;
+    display: inline-block;
+    width: 300px;
+}
+
+span {
+    background-color: royalblue;
+    display: block;
+    width: 300px;
+} */
+
+/* псевдоклассы */
+
+span:first-child {
+    color: blue;
+}
+
+span:first-child {
+    color: coral;
+}
+
+span:nth-child(2) {
+    color: cornflowerblue;
+}
+
+input:focus {
+    outline: none;
+}
+
+a:visited {
+    color: pink;
+}
+
+/* непасещенная ссылка */
+
+a:link {
+    color: orange;
+}
+
+a {
+    transition: all 1s;
+}
+
+/* при наведении */
+
+a:hover {
+    background-color: rosybrown;
+    font-size: 32px;
+}
+
+/* активные ссылки */
+
+a:active {
+    color: black;
+}
+
+/*  СРОЧНЫМ ТЕГАМ НЕ РАБОТАЕТ */
+
+span::first-letter {
+    font-size: 16PX;
+    font-weight: 700;
+}
+
+/* ПЕРВАЯ БУКВА ТЕКСТА */
+
+P::first-letter {
+    font-size: 16PX;
+    font-weight: 700;
+}
+
+/* ПЕРВАЯ СРОКА ТЕКСТА */
+
+P::first-line {
+    background: lightblue;
+    font-style: italic;
+}
+
+/* чтобы работать с placeholder */
+
+input::placeholder {
+    color: #000;
+    font-size: 15px;
+}
+
+/* чтобы поставить контент пеоред элементом*/
+
+#span-1::before {
+    content: " apple";
+}
+
+/*  чтобы поставить контент после элемента */
+
+#span-1::after {
+    content: " M-1";
+    font-weight: bold;
+}
+
+#p-2::before {
+    content: "KOKO";
+    font-weight: bold;
+}
+
+#p-2::after {
+    content: "MAMA";
+}
+
+.main-block {
+    width: 100%;
+    background: lightgray;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    background: darkblue;
+    /* position: static; */
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+div:first-child {
+    padding-top: 150px;
+}
+
+.first-div {
+    padding-top: 100px;
+}
+
+.content-block {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background: darkgreen;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background: black;
+    position: absolute;
+    /* right: 0; */
+    /* left: 0; */
+    /* bottom: 0; */
+    /* top: 0; */
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+}
