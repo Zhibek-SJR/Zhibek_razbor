@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Makers"
+    },
+    {
+      "title": "Macbook m1pro",
+      "id": 2
+    },
+    {
+      "title": "test",
+      "id": 3
+    },
+    {
+      "title": "begy",
+      "id": 4
+    },
+    {
+      "title": "Macbook m1pro",
+      "id": 5
+    }
+  ]
+}

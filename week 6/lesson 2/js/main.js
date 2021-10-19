@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // let btn = document.querySelector("button");
 
-// #2
 // btn.onclick = () =>{
 //     alert("CLICKED");
 // }
@@ -135,11 +134,11 @@ let btnChangeSize = document.querySelector(".Change-size");
 
 btnChangeColor.addEventListener("click", () => {
     // span.style.color = "pink";
-    // let red = Math.ceil(Math.random() * 255);
-    // let green = Math.ceil(Math.random() * 255);
-    // let blue = Math.ceil(Math.random() * 255);
-    // span.style.color = `rgb(${red}, ${green}, ${blue})`
-    span.style.color = `rgb(${Math.ceil(Math.random() * 100)}`255, 255, 40, 50)
+    let red = Math.ceil(Math.random() * 255);
+    let green = Math.ceil(Math.random() * 255);
+    let blue = Math.ceil(Math.random() * 255);
+    span.style.color = `rgb(${red}, ${green}, ${blue})`;
+    
 
 });
 btnChangeSize.addEventListener("click", () =>{

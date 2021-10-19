@@ -1,5 +1,5 @@
 
-////////////  ПОВТОРЕНИЕ
+//  ПОВТОРЕНИЕ
 
 // let arr = [1, 1, 1,2, 3, 3, 4, 5, 5 ];
 // let newArr = [];
@@ -103,11 +103,11 @@
 //    console.log(days);
 // }
 
-const calcAge = (age) =>{
-    let days = age * 365;
-    console.log(days);
-}
-calcAge(20);
+// const calcAge = (age) =>{
+//     let days = age * 365;
+//     console.log(days);
+// }
+// calcAge(20);
 
 
 // const calcSquare = function() {

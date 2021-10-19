@@ -1,4 +1,4 @@
-// DOM , Селекторы Naive JS
+//! DOM , Селекторы Naive JS
 
 
 

@@ -25,9 +25,9 @@
 
 
 // ! jQuery  замена $ (сахар)
-let liTags = $("li");
-liTags.css("color", "blue");
-// // let thirdLiTags = $("li:nth-child(3)");// по порядковому номеру
+// let liTags = $("li");
+// liTags.css("color", "blue");
+// // // let thirdLiTags = $("li:nth-child(3)");// по порядковому номеру
 // let thirdLiTags = $("li:eq(2)");//indtx
 // thirdLiTags.css("color", "green");
 // let first = $("li:first-child");
@@ -55,11 +55,11 @@ let divsWithoutClass =$("div;not(.block)"); //д\з
 console.log(divsWithoutClass);
 
 
-// let paragraph = $(".text");
-// // let text = paragraph.text();
-// // console.log(text);
-// // paragraph.text(paragraph.text() + " Hello")
-// paragraph.html("<strong>JSFS-13</strong>")
+let paragraph = $(".text");
+// let text = paragraph.text();
+// console.log(text);
+// paragraph.text(paragraph.text() + " Hello")
+paragraph.html("<strong>JSFS-13</strong>")
 
 
 
